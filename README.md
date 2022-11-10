@@ -17,8 +17,7 @@
 
 
 ```
-def htextview_version = "0.1.6"
-compile "com.hanks:htextview-base:$htextview_version" 
+implementation 'com.github.babayevsemid:STextView:1.0.0'
 ```
 
 
