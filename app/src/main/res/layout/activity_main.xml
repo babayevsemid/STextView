@@ -7,7 +7,7 @@
     android:background="@color/white"
     tools:context="com.example.demo.MainActivity">
 
-    <com.samid.sTextView.widget.ScaleTextView
+    <com.samid.stextview.widget.ScaleTextView
         android:id="@+id/test"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
