@@ -1,15 +1,4 @@
-# HTextView
-Animation effects with custom font support to TextView
-
-![](https://img.shields.io/hexpm/l/plug.svg)
-![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
-![](https://img.shields.io/badge/Android-CustomView-blue.svg)
-
-see [iOS Effects](https://github.com/lexrus/LTMorphingLabel)    
-see [Flutter Effects](https://github.com/HitenDev/flutter_effects)
-
-
----
+# STextView
 
 ## Screenshot
 
@@ -29,24 +18,14 @@ see [Flutter Effects](https://github.com/HitenDev/flutter_effects)
 
 ```
 def htextview_version = "0.1.6"
-// as 3.0 use implementation
-compile "com.hanks:htextview-base:$htextview_version"        // base library
-
-compile "com.hanks:htextview-fade:$htextview_version"        // optional
-compile "com.hanks:htextview-line:$htextview_version"        // optional
-compile "com.hanks:htextview-rainbow:$htextview_version"     // optional
-compile "com.hanks:htextview-typer:$htextview_version"       // optional
-
-compile "com.hanks:htextview-scale:$htextview_version"       // optional
-compile "com.hanks:htextview-evaporate:$htextview_version"   // optional
-compile "com.hanks:htextview-fall:$htextview_version"        // optional
+compile "com.hanks:htextview-base:$htextview_version" 
 ```
 
 
 ### line
 
 ```
-<com.hanks.htextview.line.LineTextView
+<com.samid.stextview.widget.LineTextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="right"
@@ -61,7 +40,7 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
 ### fade
 
 ```
-<com.hanks.htextview.fade.FadeTextView
+<com.samid.stextview.widget.FadeTextView
     android:layout_width="240dp"
     android:layout_height="150dp"
     android:gravity="left"
@@ -76,7 +55,7 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
 ### typer
 
 ```
-<com.hanks.htextview.typer.TyperTextView
+<com.samid.stextview.widget.TyperTextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="this is init sentence."
@@ -87,7 +66,7 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
 ### rainbow
 
 ```
-<com.hanks.htextview.rainbow.RainbowTextView
+<com.samid.stextview.widget.RainbowTextView
     android:layout_width="120dp"
     android:layout_height="wrap_content"
     android:gravity="right"
@@ -100,18 +79,19 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
 ### scale (single line)
 
 ```
-<com.hanks.htextview.scale.ScaleTextView
+<com.samid.stextview.widget.ScaleTextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="this is init sentence"
-    android:textSize="16sp"/>
+    android:textSize="16sp"
+    app:animationDuration="300"/>
 ```
 
 
 ### evaporate (single line)
 
 ```
-<com.hanks.htextview.evaporate.EvaporateTextView
+<com.samid.stextview.widget.EvaporateTextView
     android:layout_width="match_parent"
     android:layout_height="100dp"
     android:gravity="center"
@@ -123,36 +103,10 @@ compile "com.hanks:htextview-fall:$htextview_version"        // optional
 ### fall  (single line)
 
 ```
-<com.hanks.htextview.fall.FallTextView
+<com.samid.stextview.widget.FallTextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingBottom="20dp"
     android:text="this is init sentence"
     android:textSize="16sp"/>
 ```
-
-## Third Party Bindings
-
-### React Native
-You may now use this library with [React Native](https://github.com/facebook/react-native) via the module [here](https://github.com/prscX/react-native-morphing-text)
-
-
-## License
-
-This library is licensed under the [Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
-See [`LICENSE`](LICENSE) for full of the license text.
-
-    Copyright (C) 2015 [Hanks](https://github.com/hanks-zyh)
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
