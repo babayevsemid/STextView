@@ -8,7 +8,6 @@
 | Scale     | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo3.gif) |
 | Evaporate | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo5.gif) |
 | Fall      | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo6.gif) |
-| Line      | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo7.gif) |
 | Typer     |  ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/typer.gif) |
 | Rainbow   | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/rainbow.gif) |
 | Fade      | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/fade.gif) |
@@ -18,22 +17,6 @@
 
 ```
 implementation 'com.github.babayevsemid:STextView:1.0.0'
-```
-
-
-### line
-
-```
-<com.samid.stextview.widget.LineTextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="right"
-    android:paddingRight="10dp"
-    android:text="This is LineTextView\nToday is Monday"
-    android:textSize="16sp"
-    app:animationDuration="3000"
-    app:lineColor="#1367bc"
-    app:lineWidth="4dp"/>
 ```
 
 ### fade
