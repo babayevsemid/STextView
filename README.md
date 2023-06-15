@@ -5,12 +5,12 @@
 
 | type  | gif |
 | :-- | :-- |
-| Scale     | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo3.gif) |
-| Evaporate | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo5.gif) |
-| Fall      | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo6.gif) |
-| Typer     |  ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/typer.gif) |
-| Rainbow   | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/rainbow.gif) |
-| Fade      | ![](https://github.com/hanks-zyh/HTextView/blob/master/screenshot/fade.gif) |
+| Scale     | ![](screenshots/demo3.gif) |
+| Evaporate | ![](screenshots/demo5.gif) |
+| Fall      | ![](screenshots/demo6.gif) |
+| Typer     |  ![](screenshots/typer.gif) |
+| Rainbow   | ![](screenshots/rainbow.gif) |
+| Fade      | ![](screenshots/fade.gif) |
 
 ## Usage
 

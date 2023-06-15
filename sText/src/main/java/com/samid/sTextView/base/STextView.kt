@@ -3,6 +3,7 @@ package com.samid.stextview.base
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
+import com.samid.stextview.base.AnimationListener
 
 abstract class STextView @JvmOverloads constructor(
     context: Context,

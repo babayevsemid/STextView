@@ -9,7 +9,7 @@ import android.util.AttributeSet
 import com.samid.stextview.base.AnimationListener
 import com.samid.stextview.base.DisplayUtils
 import com.samid.stextview.base.STextView
-import com.samid.story.R
+import com.samid.stextview.R
 
 class RainbowTextView @JvmOverloads constructor(
     context: Context,

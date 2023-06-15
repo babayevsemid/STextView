@@ -8,7 +8,7 @@ import android.view.animation.LinearInterpolator
 import com.samid.stextview.base.DefaultAnimatorListener
 import com.samid.stextview.base.SText
 import com.samid.stextview.base.STextView
-import com.samid.story.R
+import com.samid.stextview.R
 import java.util.*
 
 class FadeText : SText() {
@@ -17,10 +17,10 @@ class FadeText : SText() {
     private var alphaList: MutableList<Int>? = null
     private val DEFAULT_DURATION = 2000
 
-    override fun init(hTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
-        super.init(hTextView, attrs, defStyle)
+    override fun init(sTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
+        super.init(sTextView, attrs, defStyle)
 
-        val typedArray = hTextView.context.obtainStyledAttributes(attrs, R.styleable.FadeTextView)
+        val typedArray = sTextView.context.obtainStyledAttributes(attrs, R.styleable.FadeTextView)
 
         animationDuration =
             typedArray.getInt(R.styleable.FadeTextView_animationDuration, DEFAULT_DURATION)

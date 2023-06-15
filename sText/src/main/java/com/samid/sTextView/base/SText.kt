@@ -26,10 +26,10 @@ abstract class SText : ISText {
     protected var animationListener: AnimationListener? = null
         private set
 
-    override fun init(hTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
-        mSTextView = hTextView
+    override fun init(sTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
+        mSTextView = sTextView
         mOldText = ""
-        mText = hTextView.text
+        mText = sTextView.text
         progress = 1f
         mPaint = TextPaint(Paint.ANTI_ALIAS_FLAG)
         mOldPaint = TextPaint(mPaint)

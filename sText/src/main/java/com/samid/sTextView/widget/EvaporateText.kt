@@ -17,8 +17,8 @@ class EvaporateText : SText() {
     private var duration: Long = 0
     private var animator: ValueAnimator? = null
 
-    override fun init(hTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
-        super.init(hTextView, attrs, defStyle)
+    override fun init(sTextView: STextView, attrs: AttributeSet?, defStyle: Int) {
+        super.init(sTextView, attrs, defStyle)
 
         animator = ValueAnimator()
         animator?.apply {
