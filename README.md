@@ -5,12 +5,12 @@
 
 | type  | gif |
 | :-- | :-- |
-| Scale     | ![](screenshots/demo3.gif) |
-| Evaporate | ![](screenshots/demo5.gif) |
-| Fall      | ![](screenshots/demo6.gif) |
-| Typer     |  ![](screenshots/typer.gif) |
-| Rainbow   | ![](screenshots/rainbow.gif) |
-| Fade      | ![](screenshots/fade.gif) |
+| Scale     | ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/demo3.gif) |
+| Evaporate | ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/demo5.gif) |
+| Fall      | ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/demo6.gif) |
+| Typer     |  ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/typer.gif) |
+| Rainbow   | ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/rainbow.gif) |
+| Fade      | ![](https://github.com/babayevsemid/STextView/blob/master/screenshot/fade.gif) |
 
 ## Usage
 
